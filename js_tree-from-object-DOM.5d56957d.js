@@ -1,0 +1,2 @@
+"use strict";var food={Drink:{Wine:{},Schnaps:{}},Fruit:{Red:{Cherry:{},Strawberry:{}},Yellow:{Banana:{},Pineapple:{}}}},tree=document.querySelector("#tree");function createTree(e,r){var t=document.createElement("ul");for(var n in r){var a=document.createElement("li");t.append(a),a.textContent=n,Object.keys(r[n]).length>0&&createTree(a,r[n])}e.append(t)}createTree(tree,food);
+//# sourceMappingURL=js_tree-from-object-DOM.5d56957d.js.map
